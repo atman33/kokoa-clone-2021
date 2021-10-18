@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/styles.css" />
+    <title>Welcome to kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <a id="friends-display-link">
+      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar__xl"
+            src="https://cdn.indiepost.co.kr/uploads/images/2020/11/11/Tir5Eh-700x700.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Basquiat</h4>
+            <!-- <h6 class="user-component__subtitle">fja;jdfskl;jasdfljals</h6> -->
+          </div>
+        </div>
+        <div class="user-component"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Friends</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar__sm"
+              src="https://img2.daumcdn.net/thumb/R658x0.q70/?fname=https://t1.daumcdn.net/news/202105/25/interbiz/20210525102438063bbgf.jpg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Damien Hirst
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar__sm"
+              src="https://3.bp.blogspot.com/-c82f4CslP88/UeQQ59e-GUI/AAAAAAAABz0/bUv7_Wczrdg/s320/1.png"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Yayoi Kusama
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              class="user-component__avatar user-component__avatar__sm"
+              src="https://w.namu.la/s/96d2581cc033b60c970184b775d866562e7d620eafd09dd0c0e4b9cbb00cc2d91c35fab080161ec07bcaf63f291cc2b461cc96c1865113e5e7e13a8cceb1975940dd66f86b4b8812b6b2707a911053729804a4fa6ae4e7ec2af4d419c7c045b98b90f392c23d03644632370a2fb5896b"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Pablo Picasso
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>2</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__reddot"></span>
+            <i class="fas fa-ellipsis-v fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="splach-screen">
+      <i class="fas fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your sreen is too big ㅠㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
